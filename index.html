@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>همـ قلمـ</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://api.fontgraphy.ir/css?family=samim">
+</head>
+<body>
+    <div class="holder">
+        <h1>همـ قلمـ</h1>
+        <p>
+            در این برنامه متن های شما را میگیریم و با توجه به وزن کلمات تشخیص میدهیم که این متن ها چقدر به هم شبیه هستند.
+        </p>
+
+        <div class="results">
+            <div class="good-result">
+                <h3>
+                    <label class="percent" >0</label>
+                     درصد همـ قلمـ با متنـ اولـ</h3>
+                <p>
+                    متن های شما از نظر ما شبیه هم هستند و موضوع مشترک بین آنها میتواند یکی از گزینه های زیر باشد.
+                </p>
+                <ul class="words"></ul>
+            </div>
+
+            <p class="bad-result">
+                متن های شما از نظر ما وجه اشتراکی ندارد.
+            </p>
+
+        </div>
+
+        <textarea id="tx1" placeholder="نوشته اول خود را وارد کنید ..."></textarea>
+        <textarea id="tx2" placeholder="نوشته دوم خود را وارد کنید ..."></textarea>
+        <button class="check-btn" >بررسی نوشته ها</button>
+    </div>
+    <script src="./assets/js/result.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
